@@ -134,7 +134,7 @@
                 العربية
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fhistory-to-workflow%2Ftutorial.html&edit-text=&act=url" title="">
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html&edit-text=&act=url" title="">
                 And more!
                 </a>
             </div>
@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "2020-06-15 09:16:12 +0000",
+  "dateModified": "1970-01-01 00:33:40 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Extracting Workflows from Histories",
   "interactivityType": "mixed",
@@ -349,15 +349,13 @@
     <h1 data-toc-skip>Extracting Workflows from Histories</h1>
     
 
-    <div class="contributors-line">Authors: 
-
- <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Avatar">Dave Clements</a>
-
-</div>
+    <div class="contributors-line">Authors: <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge contributor-tnabtaf"><img src="https://avatars.githubusercontent.com/tnabtaf?s=27" alt="Avatar">Dave Clements</a></div>
 
     <blockquote class="overview">
         <h3>Overview</h3>
+        
         <img alt="Creative Commons License" class="float-right" style="border-width:0; display: inline-block; margin:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" aria-hidden="true" />
+        
         <strong><i class="far fa-question-circle" aria-hidden="true"></i> Questions:</strong>
         <ul>
         
@@ -395,7 +393,9 @@
 
         <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jun 15, 2020 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
+            
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
+            
             <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">The GTN Framework is licensed under MIT</a>
         </div>
     </blockquote>
@@ -553,7 +553,7 @@
     <li>
       <p>Once you have named your <span class="notranslate">workflow</span>, click the <strong>Create <span class="notranslate">Workflow</span></strong> button.</p>
 
-      <p><img src="../../images/workflow_strand_create.png" alt="Create workflow form" loading="lazy" /></p>
+      <p><img src="../../images/workflow_strand_create.png" alt="Create workflow form. " loading="lazy" /></p>
 
       <ul>
         <li>This replaces the <span class="notranslate">workflow</span> creation form with a box that says:
@@ -570,7 +570,7 @@
 
 <p>This launches the <span class="notranslate">workflow</span> editor and shows a graphical representation of the inputs and steps taken during the analysis.  Each box is either an input dataset, or a tool that was run.  Boxes are connected by lines that show the flow of data from input datasets, through intermediate tools, to the tools that produce the final output(s).  Each tool box show a list of inputs (at the top) and a list of outputs (at the bottom).  The flow of data is generally from left to right.</p>
 
-<p><img src="../../images/workflow_editor_landing_strand.png" alt="Workflow Editor" loading="lazy" /></p>
+<p><img src="../../images/workflow_editor_landing_strand.png" alt="Workflow Editor. " loading="lazy" /></p>
 
 <p>While we could run this <span class="notranslate">workflow</span> right now, here are a few cleanup items we should do first.</p>
 
@@ -599,7 +599,7 @@
         <li>For the example, we’ll use:
           <ul>
             <li><code class="language-plaintext highlighter-rouge"><span class="notranslate">Workflow</span> checks this set of genomic features to find any that overlap with each other on opposite strands.  **This must be at least a 6 column <span class="notranslate">BED</span> file,** as the <span class="notranslate">workflow</span> makes decisions based on column 6, the strand.</code>
-  <img src="../../images/workflow_strand_renamed_plus_annot.png" alt="Renamed and annotated input dataset" loading="lazy" /></li>
+  <img src="../../images/workflow_strand_renamed_plus_annot.png" alt="Renamed and annotated input dataset. " loading="lazy" /></li>
           </ul>
         </li>
       </ul>
@@ -675,7 +675,7 @@
       <p><em>Examine</em> the <span class="notranslate">workflow</span> run form.</p>
 
       <p>This form lists all the inputs and steps in the <span class="notranslate">workflow</span> also asks if you want to run this <span class="notranslate">workflow</span> in a new history, of just add it to your existing history.
-<img src="../../images/workflow_run_strand_landing.png" alt="Run workflow form" loading="lazy" /></p>
+<img src="../../images/workflow_run_strand_landing.png" alt="Run workflow form. " loading="lazy" /></p>
 
       <p>In this form you can also change the run-time parameters of any of the steps.  We aren’t going to do that, but it can be useful when are experimenting with different parameters in different steps.
 Let’s test the <span class="notranslate">workflow</span> by running it on the same input datasets we used in the current history.  If we created the <span class="notranslate">workflow</span> correctly, we should get the same results as in the history.</p>
