@@ -371,7 +371,18 @@
     <h1 data-toc-skip>Quality Control</h1>
     
 
-    <div class="contributors-line">Authors: <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a><a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge contributor-mblue9"><img src="https://avatars.githubusercontent.com/mblue9?s=27" alt="Avatar">Maria Doyle</a></div>
+
+    <div class="contributors-line">Authors: 
+<a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a>
+
+
+<a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge contributor-mblue9"><img src="https://avatars.githubusercontent.com/mblue9?s=27" alt="Avatar">Maria Doyle</a>
+
+
+<a href="https://training.galaxyproject.org/training-material/topics/contributing/" class="contributor-badge contributor-newcontributors"><i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span>Add Contributions!</a>
+
+</div>
+
 
     <blockquote class="overview">
         <h3>Overview</h3>
@@ -529,8 +540,10 @@
         
     
         
-        <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
-            CLIP-Explorer
+    
+        
+        <a class="dropdown-item" href="https://cpt.tamu.edu/galaxy-public/" title="Center for Phage Technology (CPT)">
+            Center for Phage Technology (CPT)
         </a>
         
     
@@ -575,10 +588,6 @@
         
     
         
-        <a class="dropdown-item" href="https://ecology.usegalaxy.eu/" title="Galaxy for Ecology">
-            Galaxy for Ecology
-        </a>
-        
     
         
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
@@ -595,15 +604,7 @@
         
     
         
-        <a class="dropdown-item" href="https://hicexplorer.usegalaxy.eu" title="HiCExplorer">
-            HiCExplorer
-        </a>
-        
     
-        
-        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
-            Human Cell Atlas
-        </a>
         
     
         
@@ -629,9 +630,7 @@
         
     
         
-        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
-            Metagenomics
-        </a>
+    
         
     
         
@@ -643,27 +642,17 @@
         
     
         
-        <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
-            NanoGalaxy
-        </a>
-        
     
         
     
         
     
         
-        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
-            Plant Anaylsis Workbench
-        </a>
-        
     
         
     
         
-        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
-            Single Cell Omics workbench
-        </a>
+    
         
     
         
@@ -703,19 +692,9 @@
         
     
         
-        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
-            UseGalaxy.org.au
-        </a>
-        
     
         
     
-        
-    
-        
-        <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
-            Virology
-        </a>
         
     
         
@@ -728,7 +707,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Sep 1, 2021 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Oct 28, 2021 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -807,8 +786,10 @@ This is a microbiome sample from a snake <span class="citation"><a href="#StJacq
       <!--SNIPPET-->
       <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-importing-data-from-a-data-library"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing data from a data library</h3>  <p>As an alte<span class="notranslate">rna</span>tive to uploading the data from a URL or your computer, the files may also have been made available from a <em>shared data library</em>:</p>  <ul>  <li>Go into <strong>Shared data</strong> (top panel) then <strong>Data libraries</strong></li>  <li>Navigate to the correct folder as indicated by your instructor</li>  <li>Select the desired files</li>  <li>Click on the <strong>To History</strong> button near the top and select <strong>as Datasets</strong> from the dropdown menu</li>  <li>In the pop-up window, select the history you want to import the files to (or create a new one)</li>  <li>Click on <strong>Import</strong></li></ul></blockquote>
     </li>
+    <li>
+      <p>Rename the imported dataset to <code class="language-plaintext highlighter-rouge"><span class="notranslate">Reads</span></code>.</p>
+    </li>
   </ol>
-
 </blockquote>
 
 <p>We just imported a file into <span class="notranslate">Galaxy</span>. This file is similar to the data we could get directly from a sequencing facility: a <a href="https://en.wikipedia.org/wiki/FASTQ_format">FASTQ file</a>.</p>
@@ -950,7 +931,7 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGFGGGFGGGGGGAFFGGFGG
   <ol>
     <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/iuc/fastqe/fastqe/0.2.6+galaxy2" title="Tested with toolshed.g2.bx.psu.edu/repos/iuc/fastqe/fastqe/0.2.6+galaxy2"><strong>FASTQE</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/iuc/fastqe/fastqe/0.2.6+<span class="notranslate">galaxy</span>2</span></span>  with the following parameters
       <ul>
-        <li><i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <em>“FastQ data”</em>: <code class="language-plaintext highlighter-rouge">female_oral2.fastq-4143.gz</code></li>
+        <li><i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <em>“FastQ data”</em>: <code class="language-plaintext highlighter-rouge"><span class="notranslate">Reads</span></code></li>
         <li><i class="fas fa-filter" aria-hidden="true"></i><span class="visually-hidden">param-select</span> <em>“Score types to show”</em>: <code class="language-plaintext highlighter-rouge">Mean</code></li>
       </ul>
     </li>
@@ -1096,9 +1077,9 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGFGGGFGGGGGGAFFGGFGG
   <h3 id="hands_on-hands-on-quality-check-1"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Quality check</h3>
 
   <ol>
-    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1" title="Tested with toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1"><strong>FASTQC</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+<span class="notranslate">galaxy</span>1</span></span>  with the following parameters
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0" title="Tested with toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0"><strong>FASTQC</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+<span class="notranslate">galaxy</span>0</span></span>  with the following parameters
       <ul>
-        <li><i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <em>“Short read data from your current history”</em>: <code class="language-plaintext highlighter-rouge">Cutadapt Read 1 Output</code></li>
+        <li><i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <em>“Raw read data from your current history”</em>: <code class="language-plaintext highlighter-rouge"><span class="notranslate">Reads</span></code></li>
       </ul>
     </li>
     <li>Inspect the generated HTML file</li>
@@ -1344,7 +1325,7 @@ These sections are <strong>optional</strong>, and if you would like to skip thes
 
 <figure id="figure-8"><img src="../../images/quality-control/sequence_length_distribution-before.png" alt="Sequence length distribution. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 8:</span> Sequence length distribution</figcaption></figure>
 
-<p>Some high-throughput sequencers generate sequence fragments of uniform length, but others can contain <span class="notranslate">reads</span> of widely varying lengths. Even within uniform length libraries some pipelines will trim sequences to remove poor quality base calls from the end or the first $n$ bases if they match the first $n$ bases of the adapter up to 90% (by default), with sometimes $n = 1$.</p>
+<p>Some high-throughput sequencers generate sequence fragments of uniform length, but others can contain <span class="notranslate">reads</span> of widely varying lengths. Even within uniform length libraries some pipelines will trim sequences to remove poor quality base calls from the end or the first \(n\) bases if they match the first \(n\) bases of the adapter up to 90% (by default), with sometimes \(n = 1\).</p>
 
 <h2 id="sequence-duplication-levels">Sequence Duplication Levels</h2>
 
@@ -1530,12 +1511,12 @@ GTGTCAGCCGCCGCGGTAGTCCGACGTGGCTGTCTCTTATACACATCTCC
   <h3 id="hands_on-hands-on-improvement-of-sequence-quality"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Improvement of sequence quality</h3>
 
   <ol>
-    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy1" title="Tested with toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy1"><strong>Cutadapt</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+<span class="notranslate">galaxy</span>1</span></span>  with the following parameters
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy2" title="Tested with toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy2"><strong>Cutadapt</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+<span class="notranslate">galaxy</span>2</span></span>  with the following parameters
       <ul>
         <li><em>“Single-end or Paired-end <span class="notranslate">reads</span>?”</em>: <code class="language-plaintext highlighter-rouge">Single-end</code>
           <ul>
             <li>
-              <p><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“<span class="notranslate">Reads</span> in FASTQ format”</em>: <code class="language-plaintext highlighter-rouge">female_oral2.fastq-4143.gz</code> (Input dataset)</p>
+              <p><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“<span class="notranslate">Reads</span> in FASTQ format”</em>: <code class="language-plaintext highlighter-rouge"><span class="notranslate">Reads</span></code> (Input dataset)</p>
 
               <blockquote class="tip">
                 <h3 id="tip-tip-files-not-selectable"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Files not selectable?</h3>
@@ -1695,7 +1676,7 @@ GTGTCAGCCGCCGCGGTAGTCCGACGTGGCTGTCTCTTATACACATCTCC
   <h3 id="hands_on-hands-on-checking-quality-after-trimming-1"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Checking quality after trimming</h3>
 
   <ol>
-    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1" title="Tested with toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1"><strong>FASTQC</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+<span class="notranslate">galaxy</span>1</span></span>  with the following parameters
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0" title="Tested with toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0"><strong>FASTQC</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+<span class="notranslate">galaxy</span>0</span></span>  with the following parameters
       <ul>
         <li><i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <em>“Short read data from your current history”</em>: <code class="language-plaintext highlighter-rouge">Cutadapt Read 1 Output</code></li>
       </ul>
@@ -1802,8 +1783,10 @@ GTGTCAGCCGCCGCGGTAGTCCGACGTGG
 https://zenodo.org/record/61771/files/GSM461178_untreat_paired_subset_2.fastq
 </code></pre></div>      </div>
     </li>
-    <li>
-      <p><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1" title="Tested with toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1"><strong>FASTQC</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+<span class="notranslate">galaxy</span>1</span></span>  with both datasets</p>
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0" title="Tested with toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0"><strong>FASTQC</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+<span class="notranslate">galaxy</span>0</span></span>  with both datasets:
+      <ul>
+        <li><i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <em>“Raw read data from your current history”</em>: both the uploaded datasets.</li>
+      </ul>
 
       <!--SNIPPET-->
       <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-select-multiple-datasets"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Select multiple datasets</h3>  <ol>  <li>Click on <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <strong>Multiple datasets</strong></li>  <li>Select several files by keeping the <kbd>Ctrl</kbd> (or<kbd>COMMAND</kbd>) key pressed and clicking on the files of interest</li></ol></blockquote>
@@ -1823,7 +1806,7 @@ https://zenodo.org/record/61771/files/GSM461178_untreat_paired_subset_2.fastq
         </li>
       </ul>
     </li>
-    <li>Inspect the webpage output from MultiQC</li>
+    <li>Inspect the webpage output from MultiQC.</li>
   </ol>
 
 </blockquote>
@@ -1862,7 +1845,7 @@ https://zenodo.org/record/61771/files/GSM461178_untreat_paired_subset_2.fastq
 <blockquote class="notranslate hands_on">
   <h3 id="hands_on-hands-on-improving-the-quality-of-paired-end-data"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Improving the quality of paired-end data</h3>
   <ol>
-    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy1" title="Tested with toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy1"><strong>Cutadapt</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+<span class="notranslate">galaxy</span>1</span></span>  with the following parameters
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy2" title="Tested with toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy2"><strong>Cutadapt</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+<span class="notranslate">galaxy</span>2</span></span>  with the following parameters
       <ul>
         <li><em>“Single-end or Paired-end <span class="notranslate">reads</span>?”</em>: <code class="language-plaintext highlighter-rouge">Paired-end</code>
           <ul>
@@ -2001,7 +1984,9 @@ https://zenodo.org/record/61771/files/GSM461178_untreat_paired_subset_2.fastq
                 
 
                 <h1>Feedback</h1>
-                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.</p>
+                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.
+                <br>Did you use this material as a learner or student? Click the form below to leave feedback.<i class="fas fa-hand-point-down"></i>
+                </p>
 
                 <div id="feedback-button">
                     <img src="/training-material/shared/images/feedback.png" title="Click to activate" alt="Click here to load Google feedback frame" />
@@ -2054,8 +2039,8 @@ https://zenodo.org/record/61771/files/GSM461178_untreat_paired_subset_2.fastq
 author = "Bérénice Batut and Maria Doyle",
 title = "Quality Control (Galaxy Training Materials)",
 year = "2021",
-month = "09",
-day = "01"
+month = "10",
+day = "28"
 url = "\url{https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
